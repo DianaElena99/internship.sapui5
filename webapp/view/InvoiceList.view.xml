@@ -1,0 +1,116 @@
+<mvc:View
+controllerName="org.ubb.hw.controller.InvoiceList"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   
+   
+<IconTabBar
+		id="idIconTabBar"
+		select="handleIconTabBarSelect"
+		class="sapUiResponsiveContentPadding">
+		<items>
+			<IconTabFilter
+				icon="sap-icon://world"
+				iconColor="Neutral"
+				
+				text="All"
+				key="All" />
+			<IconTabSeparator />
+			<IconTabFilter
+				icon="sap-icon://begin"
+				iconColor="Positive"
+				
+				text="Completed"
+				key="complete" />
+                  <IconTabSeparator />
+			<IconTabFilter
+				icon="sap-icon://compare"
+				iconColor="Critical"
+				
+				text="Progress"
+				key="in progress" />
+                  <IconTabSeparator />
+			<IconTabFilter
+				icon="sap-icon://inventory"
+				iconColor="Negative"
+				
+				text="ToRead"
+				key="to read" />
+		</items>
+	</IconTabBar>
+   
+   <Table
+      id="invoiceList"
+      headerText="{i18n>invoiceListTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{
+         path : 'invoice>/Invoices',
+         sorter : [{
+            path: 'status', 
+            descending: true,
+            group:true
+         }, {
+            path: 'title', 
+            descending: false
+         }]
+      }" >
+
+
+   <headerToolbar>
+         <Toolbar>
+            <Title text="{i18n>invoiceListTitle}"/>
+            <ToolbarSpacer/>
+            <SearchField width="60%" search=".onFilterInvoices"/>
+         </Toolbar>
+      </headerToolbar>
+
+<columns>
+			<Column
+				hAlign="End"
+				minScreenWidth="Small"
+				demandPopin="true"
+				width="6em">
+				<Text text="{i18n>columnISBN}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>columnName}"/>
+			</Column>
+			
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="false">
+				<Text text="{i18n>columnTitle}"/>
+			</Column>
+         
+
+			<Column
+				hAlign="End">
+				<Text text="{i18n>columnGenre}"/>
+			</Column>
+         <Column
+				minScreenWidth="Small"
+				demandPopin="true">
+				<Text text="{i18n>columnStatus}"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem
+				type="Navigation"
+				press=".onPress">
+				<cells>
+					<ObjectNumber number="{invoice>ISBN}" emphasized="true"/>
+					<Text text="{invoice>authorName}"/>
+					
+					<Text text="{invoice>title}"/>
+              
+               <Text text="{invoice>genre}"/>
+					<Text text="{
+						path: 'invoice>status',
+						formatter: '.formatter.statusText'
+					}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>

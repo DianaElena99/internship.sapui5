@@ -1,0 +1,54 @@
+<mvc:View
+   xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	controllerName="org.ubb.hw.controller.HW"
+	xmlns="sap.m">
+
+
+	<!-- <Button
+         id="helloDialogButton"
+         text="{i18n>openDialogButtonText}"
+         press=".onOpenDialog"
+         class="sapUiMediumMarginEnd"/>
+
+	<Button
+		text="{i18n>showHelloButtonText}"
+		press=".onShowHello"
+		type="Accept"
+		icon="sap-icons://activate"
+		width="10rem"
+            class="sapUiMediumMarginEnd"/>
+
+	<Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      class="sapUiMediumMarginEnd"
+      width="80%"/>
+
+	  <Input
+	  id="asd"
+      value="{/recipient/asd}"
+      description="Hello {/recipient/asd}"
+      class="sapUiMediumMarginEnd"
+      valueLiveUpdate="true"
+      width="80%"/>
+
+
+      <HBox justifyContent="End">
+            <items>
+                  <Button
+         type="Ghost"
+         text="Ghost Busters"
+         press=".onOpenDialog"
+         class="sapUiMediumMarginEnd"/>
+
+         <Button
+         type="Reject"
+         text="Nu faci dumneata ordine la mine-n birou!"
+         press=".onOpenDialog"
+         class="sapUiMediumMarginEnd"/>
+            </items>
+      </HBox> -->
+      
+</mvc:View>

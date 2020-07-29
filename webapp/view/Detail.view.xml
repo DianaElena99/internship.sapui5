@@ -1,0 +1,47 @@
+<mvc:View
+    controllerName="org.ubb.hw.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:wt="org.ubb.hw.control"
+    >
+	<Page
+		title="{i18n>detailPageTitle}"
+        showNavButton="true"
+        navButtonTooltip="Zat inapoi la prima pagina"
+		navButtonPress=".onNavBack">
+		<ObjectHeader
+			intro="{invoice>authorName}"
+			title="{invoice>title}"/>
+
+    
+    <Panel expandable="true" headerText="Covers of different editions" width="auto" class="sapUiResponsiveMargin">
+		<content>
+				<Carousel class="sapUiContentPadding" loop="true" >
+
+                    <pages>
+                    
+                    <Image src="{invoice>cover/0}" />
+                    <Image src="{invoice>cover/1}"/>
+                    </pages>
+
+                </Carousel>
+        
+		</content>
+	</Panel>
+    <Panel expandable="true" headerText="Some words about this books" width="auto" class="sapUiResponsiveMargin">
+		<content>
+            <VBox >
+            
+                <Text text="{invoice>description}" />
+                <Text text = "Lorem ipsum"/>
+
+            </VBox>
+			
+		</content>
+	</Panel>
+
+
+
+        <wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
+	</Page>
+</mvc:View>

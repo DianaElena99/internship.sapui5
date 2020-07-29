@@ -1,0 +1,278 @@
+{   
+    "Invoices": [
+      {
+        "ISBN": 24,
+        "authorName": "Feodor Dostoyevski",
+        "title": "Crime and Punishment",
+        "genre": "thriller",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Saturday, August 10, 2019 5:40 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 173,
+        "authorName": "Alexandre Dumas",
+        "title": "The Count of Monte Cristo",
+        "genre": "action",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Tuesday, April 1, 2014 9:38 AM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 192,
+        "authorName": "Khaled Hosseini",
+        "title": "The Kite Runner",
+        "genre": "thriller",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Monday, December 12, 2016 5:06 PM",
+        "status": "in progress",
+        "cover" : [
+         "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+         "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+        ]
+      },
+      {
+        "ISBN": 147,
+        "authorName": "Steinbeck",
+        "title": "Oameni si Soareci",
+        "genre": "history",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Thursday, May 26, 2016 7:24 AM",
+        "status": "in progress",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 165,
+        "authorName": "Stendhal",
+        "title": "Rosu si Negru",
+        "genre": "thriller",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Sunday, March 13, 2016 6:41 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 107,
+        "authorName": "Khaled Hosseini",
+        "title": "A Thousand Splendid Suns",
+        "genre": "history",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Saturday, May 24, 2014 1:32 AM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 128,
+        "authorName": "Albert Camus",
+        "title": "The Myth of Sisyphus",
+        "genre": "philosophy",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Sunday, May 3, 2020 5:01 PM",
+        "status": "in progress",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 62,
+        "authorName": "Phillip K",
+        "title": "The Man in the High Casle",
+        "genre": "sci-fi",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Tuesday, January 14, 2014 6:11 AM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 104,
+        "authorName": "Phillip K",
+        "title": "The Minority Report",
+        "genre": "sci-fi",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Sunday, December 18, 2016 3:18 AM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 117,
+        "authorName": "Feodor Dostoyevski",
+        "title": "The Devils",
+        "genre": "thriller",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Tuesday, January 21, 2014 6:52 AM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg"
+        ]
+      },
+      {
+        "ISBN": 151,
+        "authorName": "Alexandre Dumas",
+        "title": "The Three Musketeers",
+        "genre": "action",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Tuesday, February 16, 2016 8:04 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg"
+        ]
+      },
+      {
+        "ISBN": 158,
+        "authorName": "Alexandre Dumas",
+        "title": "The Viscount of Bragelonne",
+        "genre": "history",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Sunday, March 10, 2019 6:02 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg"
+        ]
+      },
+      {
+        "ISBN": 130,
+        "authorName": "John Fowles",
+        "title": "The Magus",
+        "genre": "history",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Thursday, February 11, 2016 3:12 PM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 170,
+        "authorName": "Hermann Hesse",
+        "title": "Demian",
+        "genre": "philosophy",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Tuesday, May 7, 2019 9:08 AM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 64,
+        "authorName": "Stieg Larsson",
+        "title": "Millenium -Series-",
+        "genre": "thriller",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Thursday, February 18, 2016 12:16 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 186,
+        "authorName": "George R R Martin",
+        "title": "A Song of Ice and Fire -series-",
+        "genre": "fantasy",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Sunday, November 13, 2016 10:08 AM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 124,
+        "authorName": "JRR Tolkien",
+        "title": "Lord of the Rings -series-",
+        "genre": "fantasy",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Wednesday, March 21, 2018 8:00 PM",
+        "status": "to read",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 665,
+        "authorName": "Goethe",
+        "title": "Faust",
+        "genre": "fantasy",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Wednesday, March 21, 2018 8:00 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 667,
+        "authorName": "Yuval Noah Harari",
+        "title": "Sapiens",
+        "genre": "non-fiction",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Wednesday, March 21, 2018 8:00 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 668,
+        "authorName": "Yuval Noah Harari",
+        "title": "Homo Deus",
+        "genre": "non-fiction",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Wednesday, March 21, 2018 8:00 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      },
+      {
+        "ISBN": 669,
+        "authorName": "Yuval Noah Harari",
+        "title": "21 Lessons for 21st Century",
+        "genre": "non-fiction",
+        "description": "an apotheotic bestseller",
+        "registerDate": "Wednesday, March 21, 2018 8:00 PM",
+        "status": "complete",
+        "cover" : [
+          "https://www.contzilla.ro/wp-content/uploads/2019/03/lansare_carte.jpg", 
+          "https://elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-e1464023124869.jpeg"
+         ]
+      }
+
+    ]
+  }
